@@ -298,7 +298,7 @@ namespace LibraryApp.Services
                                 FROM Books, BooksOrders
                                 WHERE BooksOrders.OrderId = @orderId
                                 AND Books.Id = BooksOrders.BookId
-                                ORDER BY Price;";
+                                ORDER BY Price DESC;";
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
                     cmd.Parameters.AddWithValue("orderId", orderId);
