@@ -86,8 +86,7 @@ namespace LibraryApp
             {
                 MessageBox.Show("Order successful\n\nTotal cost: " + total.ToString() +
                     "\n\nPlease bring the printed receipt to the cashier.\nThank you.");
-                Orders = _database.GetOrders();
-                GuiHelpers.RefreshOrdersPanel(Orders, ordersPanelListView);
+                RefreshAllData();
             }
             else
             {

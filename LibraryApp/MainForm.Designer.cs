@@ -372,7 +372,7 @@
             this.delRequestBtn.Name = "delRequestBtn";
             this.delRequestBtn.Size = new System.Drawing.Size(150, 37);
             this.delRequestBtn.TabIndex = 2;
-            this.delRequestBtn.Text = "Delete Selected Request";
+            this.delRequestBtn.Text = "Delete Selected Requests";
             this.delRequestBtn.UseVisualStyleBackColor = false;
             this.delRequestBtn.Visible = false;
             this.delRequestBtn.Click += new System.EventHandler(this.delRequestBtn_Click);
